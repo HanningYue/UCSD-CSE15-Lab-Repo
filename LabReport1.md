@@ -50,4 +50,13 @@ Many courses in CSE use course-specific accounts. These are similar to accounts 
     - Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer! 
 
 ## Step Three : Trying Some Commands : 
-Now you are on a computer in the CSE basement, try running some commands such as `cd`,`ls`,`pwd`,`
+Now you are on a computer in the CSE basement, try running some commands such as `cd`,`ls`,`pwd`,`mkdir`,and `cp` a few times both on your computer and on the remote computer.\
+Here are some specific useful commands to try : \
+- `cd ~ `\
+- `cd`\
+- `ls -lat`\
+- `ls -a`\
+
+Hint : To log out of the remote server in your terminal, you can use either one of the following method : \
+- Ctrl + D \
+- Run the command `exit` in the terminal
