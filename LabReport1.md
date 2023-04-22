@@ -5,9 +5,7 @@ Look up your account here **<https://sdacs.ucsd.edu/~icc/index.php>**
 
 ## Step One : Installing Visual Studio Code
 Click on the following link **<https://code.visualstudio.com/>**
-
-
-
+![Image](Visual Studio.jpg)
 
 ## Step Two : Remotely Connecting To Your CSE15L Account
 
