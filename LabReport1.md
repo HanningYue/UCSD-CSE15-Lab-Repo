@@ -5,7 +5,7 @@ Look up your account here **<https://sdacs.ucsd.edu/~icc/index.php>**
 
 ## Step One : Installing Visual Studio Code
 Click on the following link **<https://code.visualstudio.com/>**
-![Image](Visual Studio)
+![Image](VisualStudio)
 
 Click Download
 Download the corresponding version of Visual Studio Code for your operation system.
