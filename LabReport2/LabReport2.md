@@ -60,7 +60,7 @@ The relevant field of the class is StringBuilder `message`, and `message` is cha
 
 ## Part Two
 The bug I chose is the bugs from ListExamples.java
-1. One failure-inducing input would be when 2 or more input arrays when the `StringChecker` check for length greater than 2, for example :
+- One failure-inducing input would be when 2 or more input arrays when the `StringChecker` check for length greater than 2, for example :
 ```
 @Test
 public void testFilter() {
@@ -77,7 +77,7 @@ Produce [Yue, Hanning, This]
 In this case, the `filter()` method could not return the result in a ordered manner.
   
   
-2. An input that doesn't induce a failure would be in the case when the StringChecker check for the length equals to 0, for example :
+- An input that doesn't induce a failure would be in the case when the StringChecker check for the length equals to 0, for example :
 ```
 @Test
 public void testFilterThree() {
@@ -93,11 +93,11 @@ Produce []
 ```
 
 
-3. The symptom
+- The symptom
 ![Image](Error.png)
 
 
-4. I fixed the bug and commented on the place
+- I fixed the bug and commented on the place
 ![Image](Bug1.png)   
 Delete the index parameter can make the added element shift in order automatically.
 ![Image](Bug2.png)\
