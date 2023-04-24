@@ -71,7 +71,7 @@ public void testFilter() {
 Expect [This, Hanning, Yue]
 Produce [Yue, Hanning, This]
 ```
-  In this case, the `filter()` method could not return the result in a ordered manner. 
+In this case, the `filter()` method could not return the result in a ordered manner. 
   
   2. An input that doesn't induce a failure would be in the case when the StringChecker check for the length equals to 0, for example :
 ```
@@ -92,9 +92,12 @@ Produce []
 
   4. I fixed the bug and commented on the place
 ![Image](Bug1.png)
-  Delete the index parameter can make the added element shift in order automatically.
+
+Delete the index parameter can make the added element shift in order automatically.
+
 ![Image](Bug2.png)
-  Typo Error
+
+Typo Error
 
 ## Part Three
 The most important thing I learned from Lab2 and Lab3 is the navigation of GitHub, the use of Git command the an introduction to GitHub desktop. I think learning to use GitHub is crucial helping me understand other people's GitHub repositories and gather the useful learning resources online.
