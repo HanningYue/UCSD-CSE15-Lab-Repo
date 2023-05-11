@@ -1,3 +1,4 @@
+# LabReport 3
 # Command-Line Options for `grep`
 ## `grep` is a command-line utility used to search through files for a specific pattern or regular expression. 
 ### Here are four interesting options for grep, along with examples of their usage on files and directories located in the `./technical` directory.
