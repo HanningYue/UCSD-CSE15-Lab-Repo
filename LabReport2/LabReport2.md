@@ -75,7 +75,9 @@ Expect [This, Hanning, Yue]
 Produce [Yue, Hanning, This]
 ```
 In this case, the `filter()` method could not return the result in a ordered manner.
-  
+This is a failure inducing input for checkString because 
+I define checkString to check the string input and return string with length longer than 2 in order.
+But the return values demonstrate a bug's symptom(s), because I expect This, Hanning Yue as inputed order `sc.add(0,s)` , but it returned Yue Hanning This.
   
 - An input that doesn't induce a failure would be in the case when the StringChecker check for the length equals to 0, for example :
 ```
@@ -95,11 +97,14 @@ Produce []
 
 - The symptom
 ![Image](Error.png)
-
+I am doing a JUnit test on merge method, so I am doing both filter method and the merge method.
 
 - I fixed the bug and commented on the place
 ![Image](Bug1.png)   
 Delete the index parameter can make the added element shift in order automatically.
+Here, the reason for OutOfMemory Error is because the condition that keeps while loop iterating is when `index2 < list2.size()` but we need to increase index2 everytime we traverse once. The original code wrote `index1 += 1` instead of `index2 += 1`.
+Before I fix this, the while loop will keeps running until I ran out of the memory space and throw an error.
+
 ![Image](Bug2.png)\
 Typo Error
 
