@@ -1,6 +1,6 @@
 # LabReport 5
 
-## Part One : 
+## Part One:
 ### What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 
 > MacOS, Visual Studio Code, VSCode terminal
@@ -47,3 +47,7 @@
 > <img width="447" alt="image" src="https://github.com/TacoKilla420/cse15l-lab-reports/assets/102259888/f6939dec-b970-4381-819f-e7a3ad8044b7">
 
 > The corrected code will handle cases when the divisor is zero, and it will print a special message for these cases instead of throwing an exception.
+
+
+## Part Three:
+> During the second half of the quarter, the most interesting topic I found is the vim tutorial. I was able to finish the tutorial to Lesson 5, vim is is such a powerful tool it allows me to change stuffs on a backend terminal is incredible.
